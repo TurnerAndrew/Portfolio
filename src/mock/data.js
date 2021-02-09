@@ -21,28 +21,28 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/1CmEs0vkKSgZ-6hsO4pDTHSZCvDfGX7PAHnJfUAB1tEw/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'roll-for-fun.jpg',
+    title: 'Roll For Fun',
+    info: 'My first fully fledged, full stack web application.  A tool for board gaming groups to allow a simple view of all games available, vote on those games and choose one to be played.  Built using React | Node | Express | PostgreSQL | Sass | Nodemailer.  Solo project.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'rff.aturner.dev',
+    repo: 'https://github.com/TurnerAndrew/roll-for-fun', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Savvy Travels',
+    info: 'A group project consisting of 4 members.  A travel website for people with a budget, but destination.  Plug in your budget and dates and we show you all of the places you can go.  Primary responsibilities: chaining four api calls to fetch user location, use that data to get their nearest major cities, use those to determine major airports, and then get flights based on user data.  Built with Google Geolocation API | GeoDB API | Aerodatabox API | Skyscanner API.gi
+    info2: 'I also built out the outlines for the flight cards and carousel pages and manipulated all of the data from the various resources to be combined into single objects.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/savvy-travels/ssavvy-travels-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'andrew@aturner.dev',
 };
 
 // FOOTER DATA
