@@ -39,15 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I'm a restaurant manager by trade, but love to build things and have always been drawn to web development.  I've spent the last 20 years of my career across various retail and hospitality roles, most recently as a restaurant General Manager.  The industry taught me a lot, but I had plateaued and the pandemic put a major strain on the industry so I took the opportunity to pursue web development - something I'd been interested and dabbled in over the years, but could never find the time or discipline.  I found myself with the good fortune to be able to make the leap and attended Dev Mountain, completing the course in Febrary of 2021.  I am comfortable with the full stack, but find myself drawn to front end work."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "When I am not developing my time is primarily occupied by my wife and three daughters.  What time I do have I like to spend 'collecting hobbies'.  I play video games and board games, do some model making, diy projects around the house, very amateur woodworking and read books, among other things."}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+                {/* // <p className="about-wrapper__info-text">
+                //   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                // </p> */}
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

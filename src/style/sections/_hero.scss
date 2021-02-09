@@ -30,6 +30,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    color: black;
 
     @include respond(tab-land) {
       font-size: 4rem;

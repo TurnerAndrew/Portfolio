@@ -32,27 +32,27 @@ export const projectsData = [
     title: 'Roll For Fun',
     info: 'My first fully fledged, full stack web application.  A tool for board gaming groups to allow a simple view of all games available, vote on those games and choose one to be played.  Built using React | Node | Express | PostgreSQL | Sass | Nodemailer.  Solo project.',
     info2: '',
-    url: 'rff.aturner.dev',
+    url: 'https://rff.aturner.dev/#',
     repo: 'https://github.com/TurnerAndrew/roll-for-fun', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'savvy-travels.jpg',
     title: 'Savvy Travels',
-    info: 'A group project consisting of 4 members.  A travel website for people with a budget, but destination.  Plug in your budget and dates and we show you all of the places you can go.  Primary responsibilities: chaining four api calls to fetch user location, use that data to get their nearest major cities, use those to determine major airports, and then get flights based on user data.  Built with Google Geolocation API | GeoDB API | Aerodatabox API | Skyscanner API.gi
-    info2: 'I also built out the outlines for the flight cards and carousel pages and manipulated all of the data from the various resources to be combined into single objects.',
-    url: '',
+    info: 'A group project consisting of 4 members.  A travel website for people with a budget, but destination.  Plug in your budget and dates and we show you all of the places you can go.  Primary responsibilities: API calls and data manipulation, design outlines .Built with Google Geolocation API | GeoDB API | Aerodatabox API | Skyscanner API.',
+    info2: '',
+    url: 'https://savvytravels.netlify.app/#/',
     repo: 'https://github.com/savvy-travels/ssavvy-travels-app', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
@@ -65,25 +65,25 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'www.linkedin.com/in/andrewturner0',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/TurnerAndrew',
     },
   ],
 };
