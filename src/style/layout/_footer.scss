@@ -1,6 +1,6 @@
 .footer {
   background-color: $dark-grey;
-  color: $white-color;
+  color: $white;
   padding: 4.8rem 0;
 
   @include respond(phone) {
@@ -20,7 +20,7 @@
 
       &:hover,
       &:active {
-        color: $primary-color;
+        color: $primary-blue;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
       }
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white-color;
+    color: $flame;
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
@@ -59,7 +59,7 @@
 }
 
 .back-to-top i {
-  color: $white-color;
+  color: $flame;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
   cursor: pointer;
