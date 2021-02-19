@@ -31,8 +31,8 @@ export const projectsData = [
     img: 'roll-for-fun.jpg',
     title: 'Roll For Fun',
     info: 'My first fully fledged, full stack web application.  A tool for board gaming groups to allow a simple view of all games available, vote on those games and choose one to be played.  Built using React | Node | Express | PostgreSQL | Sass | Nodemailer.  Solo project.',
-    info2: '',
-    url: 'https://rff.aturner.dev/#',
+    info2: 'username | password: andrew',
+    url: 'http://161.35.101.205:5418/#/',
     repo: 'https://github.com/TurnerAndrew/roll-for-fun', // if no repo, the button will not show up
   },
   {
