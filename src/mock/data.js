@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Savvy Travels',
     info: 'A group project consisting of 4 members.  A travel website for people with a budget, but destination.  Plug in your budget and dates and we show you all of the places you can go.  Primary responsibilities: API calls and data manipulation, design outlines .Built with Google Geolocation API | GeoDB API | Aerodatabox API | Skyscanner API.',
     info2: '',
-    url: 'http://143.110.222.133:4050/#/',
+    url: 'https://savvytravels.aturner.dev',
     repo: 'https://github.com/savvy-travels/ssavvy-travels-app', // if no repo, the button will not show up
   },
   // {
