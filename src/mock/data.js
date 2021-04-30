@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'Andrew Turner Resume.pdf', // if no resume, the button will not show up
+  resume: 'Andrew_Turner_Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
