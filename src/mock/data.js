@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'Andrew_Turner_Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/1CmEs0vkKSgZ-6hsO4pDTHSZCvDfGX7PAHnJfUAB1tEw/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
