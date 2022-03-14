@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'roll-for-fun.jpg',
-    title: 'Roll For Fun - Under Construction',
+    title: 'Roll For Fun',
     info: 'My first fully fledged, full stack web application.  A tool for board gaming groups to allow a simple view of all games available, vote on those games and choose one to be played.  Built using React | Node | Express | PostgreSQL | Sass | Nodemailer.  Solo project.',
     info2: 'username | password: andrew',
     url: 'https://rff.aturner.dev',
