@@ -40,7 +40,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    "I've got a lovely bunch of coconuts."}
+                    "I'm a restaurant manager by trade, but love to build things and have always been drawn to web development.  I've spent the last 20 years of my career across various retail and hospitality roles, most recently as a restaurant General Manager.  The industry taught me a lot, but I had plateaued and the pandemic put a major strain on the industry so I took the opportunity to pursue web development - something I'd been interested and dabbled in over the years, but could never find the time or discipline.  I found myself with the good fortune to be able to make the leap and attended Devmountain, completing the course in February of 2021.  I currently hold a postion of React Tech Lead with Devmountain helping guide students through their own journeys in learning web development."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
